@@ -15,7 +15,7 @@ body{
     margin-right: 20vw;
     margin-left: 20vw;
     width: 60vw;
-    height: 100vh;
+    height: 100%;
 }
 .main{
     width: 100%;
@@ -35,3 +35,18 @@ body{
     text-align: justify;
     color: rgb(37, 37, 37);
 }
+/* create the responsive for iphone */
+@media only screen and (max-width: 599px){
+    body {
+        height: 100%;
+        margin-right: 8vw;
+        margin-left: 8vw;
+        width: 84vw;
+    }
+    .main{
+        height: 90%;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+    
